@@ -18,13 +18,13 @@ body {
 }
 
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .about-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 20px;
@@ -34,59 +34,75 @@ body {
 }
 .about-name {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 30px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 51px;
   display: flex;
   justify-content: center;
+  margin-top: 35px;
 }
 .about-description {
+  margin: 0;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 400px;
-  padding-left: 60px;
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 30px;
 }
-
+.about-summary {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  padding-left: 40px;
+}
 /* project styles */
 .projects {
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .title-proj {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
-  padding-left: 60px;
+  padding-left: 60px; */
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  padding-left: 40px;
+  /* background-color: #425b7f; */
 }
 
 .title {
+  margin: 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 27px;
   color: #000000;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  margin-top: 40;
 }
 .project-list {
   padding: 0;
-  margin-left: 15px;
   padding-left: 60px;
 }
+
 .projekts-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  padding-left: 10px;
 }
 
 .project,
@@ -108,6 +124,9 @@ body {
   color: #000000;
 }
 /* work styles */
+.work-posit-list {
+  background-color: #5959594a;
+}
 .work {
   background-color: white;
   padding-left: 35px;
@@ -116,19 +135,19 @@ body {
 }
 .work-position {
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 20px;
   color: #000000;
-  margin-bottom: 10px;
-  padding-left: 25px;
+  margin-bottom: 6px;
+  margin-top: 2px;
 }
 .organization {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #da4a16;
 }
 .period {
   font-style: normal;
@@ -143,12 +162,13 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 20px;
   color: #000000;
 }
+
 .work-list {
   padding: 0;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .work-list-item {
@@ -161,9 +181,16 @@ body {
 /* education */
 .Education {
   background-color: white;
-  padding-left: 35px;
 }
-
+.title-education {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  padding-bottom: 20px;
+}
 .education-department {
   font-style: normal;
   font-weight: 700;
@@ -173,14 +200,37 @@ body {
   padding-left: 0px;
   margin-left: 25;
 }
+.education-department {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 6px;
+  margin-top: 19px;
+}
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #da4a16;
+}
 .period-1 {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #595959;
   padding-left: 0px;
   margin-bottom: 10px;
+}
+.education-degry {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 /* sidebar */
 .sidebar {
@@ -190,31 +240,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-items: flex-start;
 }
 .foto {
-  width: 210px;
-  height: 350px;
+  width: 200px;
+  height: 330px;
   margin-bottom: 18px;
-
+  margin-left: 60px;
   margin-top: 2px;
 }
 .contacts,
 .tech-skills,
 .soft-skills {
-  margin-left: 60px;
+  margin-left: 55px;
   color: #ffffff;
-  margin-bottom: 45px;
 }
 
-.contacts {
+/* .contacts {
   margin-bottom: 50px;
-}
+} */
 
 .sidebar-title {
   color: #ffffff;
   font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 27px;
   margin-bottom: 10px;
 }
