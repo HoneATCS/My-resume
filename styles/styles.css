@@ -207,7 +207,7 @@ body {
   line-height: 20px;
   color: #000000;
   margin-bottom: 6px;
-  margin-top: 19px;
+  margin-top: 40px;
 }
 .organization {
   font-style: normal;
@@ -268,6 +268,12 @@ body {
   line-height: 27px;
   margin-bottom: 10px;
 }
+/* .sidebar-tit-list {
+} */
+.sidebar-cont-aitems {
+  margin: 0px;
+  margin-bottom: 2px;
+}
 .contact-type {
   font-style: normal;
   font-weight: 700;
@@ -282,6 +288,14 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #ccd2da;
+}
+.tech-skills-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 10px;
 }
 
 .tech-skills-list {
@@ -315,4 +329,32 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+.languages {
+  color: #ffffff;
+  margin-left: 45px;
+}
+.languages-title {
+  margin-left: 12px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.languages-list {
+  color: #ffffff;
+  padding: 0px;
+  margin-left: 27px;
+}
+.languages-skills-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.languages-item {
+  color: #fb6d3a;
 }
