@@ -358,3 +358,16 @@ body {
 .languages-item {
   color: #fb6d3a;
 }
+.github {
+  background-image: url("/svg/github.svg");
+
+  fill: white;
+  background-size: contain;
+  color: white;
+}
+.at {
+  background-image: url("/svg/at.svg");
+  fill: white;
+  background-size: contain;
+  color: white;
+}
