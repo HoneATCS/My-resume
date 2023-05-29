@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #e5e5e5;
 }
 /* main styles */
@@ -81,6 +81,7 @@ body {
   line-height: 27px;
   color: #000000;
   padding-left: 40px;
+  padding-top: 25px;
   /* background-color: #425b7f; */
 }
 
@@ -190,6 +191,7 @@ body {
   line-height: 27px;
   color: #000000;
   padding-bottom: 20px;
+  padding-top: 15px;
 }
 .education-department {
   font-style: normal;
@@ -198,7 +200,7 @@ body {
   line-height: 17px;
 
   padding-left: 0px;
-  margin-left: 25;
+  margin-left: 11;
 }
 .education-department {
   font-style: normal;
@@ -207,7 +209,7 @@ body {
   line-height: 20px;
   color: #000000;
   margin-bottom: 6px;
-  margin-top: 40px;
+  margin-top: 11px;
 }
 .organization {
   font-style: normal;
@@ -359,14 +361,14 @@ body {
   color: #fb6d3a;
 }
 .github {
-  background-image: url("/svg/github.svg");
+  background-image: url('/svg/github.svg');
 
   fill: white;
   background-size: contain;
   color: white;
 }
 .at {
-  background-image: url("/svg/at.svg");
+  background-image: url('/svg/at.svg');
   fill: white;
   background-size: contain;
   color: white;
